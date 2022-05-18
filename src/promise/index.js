@@ -13,6 +13,7 @@ const somethingWillHappen = () => { // defino como arrow function
 somethingWillHappen()
 .then(response => console.log(response))
 .catch(err => console.error(err))
+// recibe un error y lo imprimo
 
 // Esta es la estructura basica de una promesa.
 

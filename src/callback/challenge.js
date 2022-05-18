@@ -18,6 +18,7 @@ function fetchData (url_api , callback) {
             if (xhttp.status === 200) { // 200 - encontre la data
 
                 callback(null,JSON.parse(xhttp.responseText)) //parseo el resultado en json
+                // el resultado es un json. lo tengo que parsear. recibo una respuesta en texto. lo que se recibe es un texto y no voy a poder iterar.
                 // callback (el error, la informacion)
 
             } else {
